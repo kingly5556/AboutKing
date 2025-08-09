@@ -6,7 +6,6 @@ import Image from 'next/image';
 export default function Home() {
   return (
     <main className="min-h-[80vh] space-y-12">
-      {/* Hero */}
       <section className="hero bg-base-200 rounded-xl shadow-md p-6">
         <div className="hero-content flex-col text-center max-w-3xl">
           <h1 className="text-4xl font-bold text-primary">Welcome to AboutKing</h1>
@@ -22,7 +21,6 @@ export default function Home() {
         </div>
       </section>
 
-      {/* Quick Links */}
       <section className="space-y-4">
         <h2 className="text-2xl font-bold text-secondary">Quick Links</h2>
 

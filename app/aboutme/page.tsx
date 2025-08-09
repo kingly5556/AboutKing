@@ -43,14 +43,6 @@ export default function AboutMe() {
               >
                 Download Resume
               </a>
-
-              <Link
-                href="/contact"
-                className="btn btn-outline btn-sm"
-                aria-label="Go to contact page"
-              >
-                Contact Me
-              </Link>
             </div>
           </div>
         </div>
