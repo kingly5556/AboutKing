@@ -7,13 +7,10 @@ import React from 'react';
 export default function AboutMe() {
   return (
     <main className="min-h-screen bg-base-200">
-      {/* Header / Hero */}
       <section className="bg-base-100 border-b border-base-300">
         <div className="max-w-5xl mx-auto px-6 py-10 md:py-14 flex flex-col md:flex-row items-center gap-8">
-          {/* Avatar */}
           <div className="avatar">
             <div className="w-36 md:w-44 rounded-full ring ring-primary ring-offset-base-100 ring-offset-2 overflow-hidden">
-              {/* ถ้ามีรูปโปรไฟล์ให้วางไว้ที่ public/image/profile.jpg */}
               <Image
                 src="/image/king.png"
                 alt="Kongkat profile picture"
@@ -24,7 +21,6 @@ export default function AboutMe() {
             </div>
           </div>
 
-          {/* Intro */}
           <div className="flex-1">
             <h1 className="text-4xl font-extrabold tracking-tight text-primary">
               About Me
@@ -48,9 +44,7 @@ export default function AboutMe() {
         </div>
       </section>
 
-      {/* Quick Facts + Skills */}
       <section className="max-w-5xl mx-auto px-6 py-10 md:py-14 space-y-10">
-        {/* Quick Facts */}
         <div className="grid md:grid-cols-3 gap-6">
           <div className="card bg-base-100 shadow-md">
             <div className="card-body">
@@ -74,14 +68,12 @@ export default function AboutMe() {
           </div>
         </div>
 
-        {/* Featured Project */}
         <div>
           <h2 className="text-3xl font-bold mb-4 text-secondary">Featured Project</h2>
 
-          {/* ใช้ carousel ของ DaisyUI แทนรูปเรียง เพื่อแสดงผลสวยและ responsive */}
           <div className="lg:w-1/3 flex justify-center">
             <Image
-              src="/image/icon.png" // ใส่ชื่อไฟล์โลโก้ของคุณ
+              src="/image/icon.png" 
               alt="Quill logo"
               width={200}
               height={200}

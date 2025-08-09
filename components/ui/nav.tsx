@@ -9,15 +9,7 @@ export const Navbar = () => {
   <div className="flex-none">
     <ul className="menu menu-horizontal px-1">
       <li><a href='/aboutme'>About Me</a></li>
-      <li>
-        <details>
-          <summary>Menu</summary>
-          <ul className="bg-base-100 rounded-t-none p-2">
-            <li><a>Hobby</a></li>
-            <li><a>Interesting</a></li>
-          </ul>
-        </details>
-      </li>
+      <li><a href='/hobby'>Hobby</a></li>
     </ul>
   </div>
 </div>
